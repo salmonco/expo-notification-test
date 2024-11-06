@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "fcmNoti-expo",
-    "slug": "fcmNoti-expo",
+    "slug": "fcmnoti-expo",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -18,10 +18,23 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.bongjs.fcmNoti",
+      "versionCode": 1,
+      "permissions": [
+        "NOTIFICATIONS"
+      ],
+      "googleServicesFile": "./google-services.json",
+      "useNextNotificationsApi": true
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "1ea4debc-3b60-4e84-bb51-855103c11f24"
+      }
+    },
+    "owner": "bongjs"
   }
 }
